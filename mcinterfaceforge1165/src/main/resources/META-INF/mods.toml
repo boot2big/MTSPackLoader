@@ -1,0 +1,32 @@
+# File required to load packs as Forge mods.
+# Find more information on toml format v0.5.0 here:  https://github.com/toml-lang/toml
+
+# Forge settings, don't touch!
+modLoader="javafml"
+loaderVersion="[36,)"
+
+# The license for your pack. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="All rights reserved"
+
+[[mods]]
+# The ID of your pack.
+modId="examplepack"
+# Version number.  Can be whatever format you'd like.
+version="1.0.0"
+# Display name for the pack in the in-game mods list.
+displayName="Immersive Vehicles (MTS/IV) - Example Pack"
+# A URL for the "homepage" for this pack, displayed in the mod UI.
+displayURL="https://www.empiretoday.com"
+# Pack logo.
+logoFile="vingette.png"
+# Authors list, put your name here as well as any contributors.
+authors="Notch, Elephant1214, The Academy, creeper.gonzales.2004"
+# The description text for the pack (multi line!)
+description='''
+Rawr X3 *nuzzles* How are you?
+*registers with Forge ModLoader* teehee
+your gpu's so warm o3o *reverses polarity of neutron flow* nyeetbzzt~
+if u are reading tihs someone forgot to replace their pack's description!! hehe
+'''
+# I had an anyerusm brritnging that
