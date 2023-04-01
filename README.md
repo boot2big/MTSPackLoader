@@ -1,1 +1,1 @@
-Eu de blanque
+Blankiest blank
