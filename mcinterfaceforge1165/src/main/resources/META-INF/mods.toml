@@ -20,13 +20,15 @@ displayName="Immersive Vehicles (MTS/IV) - Example Pack"
 displayURL="https://www.empiretoday.com"
 # Pack logo.
 logoFile="vingette.png"
-# Authors list, put your name here as well as any contributors.
-authors="Notch, Elephant1214, The Academy, creeper.gonzales.2004"
+# Authors list, put your name here so people know who made your pack.
+authors="Notch"
+# Credits, put the name of helpful contributors here so people know who did the *real* work! d:
+credits="Elephant1214, The Academy, creeper.gonzales.2004"
 # The description text for the pack (multi line!)
 description='''
 Rawr X3 *nuzzles* How are you?
 *registers with Forge ModLoader* teehee
 your gpu's so warm o3o *reverses polarity of neutron flow* nyeetbzzt~
-if u are reading tihs someone forgot to replace their pack's description!! hehe
+if u are readin this someone forgot to replace their packy wacky's description!! hehe
 '''
-# I had an anyerusm brritnging that
+# I had an anyerusm writing that, if you don't override the description... youtu.be/cnvaHW6zNLY?t=9
