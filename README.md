@@ -12,8 +12,14 @@ Locations of `examplepack` and `Example Pack` https://imgur.com/a/18qsLvj
 
 Step 3. Rename the folders in `/mcinterfaceforge1122/src/main/java/` and `/mcinterfaceforge1165/src/main/java/` from `examplepack` to the shortform ID of your pack.
 
-Step 4. Open up a Command Line or Terminal (platform dependent, CMD and gradlew.bat for Windows VS bash and ./gradlew for Linux) and navigate to the root folder of this repository.  
+Step 4. Edit the following files, which will contain crucial information such as your pack description and mod version. 
+
+`/mcinterfaceforge1122/src/main/resources/mcmod.info`
+`/mcinterfaceforge1122/src/main/java/[shortformid]/ForgePackLoader.java`
+`/mcinterfaceforge1165/src/main/resources/META-INF/mods.toml`
+
+Step 5. Open up a Command Line or Terminal (platform dependent, CMD and gradlew.bat for Windows VS bash and ./gradlew for Linux) and navigate to the root folder of this repository.  
 Run `gradlew clean` to allow the compiler to prepare itself (only on the first time you run it) and clean up things. This helps to prevent ghost directories, outdated files and is generally a good idea to my knowledge.  
 Then simply run `gradlew buildForgeAll` to build both the 1.12.2 and 1.16.5 versions of your pack, which will be located in the `/out` directory.
 
-In four easy steps you have now upgraded your pack to 1.16.5! All you need to do for subsequent updates is to modify your assets as usual (whether they're in `/mccore` or otherwise) and simply `clean` & `buildForgeAll` a second time!
+Once finished, you have now upgraded your pack to 1.16.5! All you need to do for subsequent updates is to modify your assets as usual (whether they're in `/mccore` or otherwise) and simply `clean` & `buildForgeAll` a second time!
